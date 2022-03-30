@@ -8,28 +8,33 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="412dp"
-        android:layout_height="202dp"
-        android:text="Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="Warehouse"
+        android:onClick="warehouseView"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="409dp"
-        android:layout_height="212dp"
-        android:text="Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Office"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="409dp"
-        android:layout_height="328dp"
-        android:text="Audits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Audits"
         android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
